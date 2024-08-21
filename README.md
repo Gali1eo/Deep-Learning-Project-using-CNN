@@ -1,1 +1,7 @@
 # Deep-Learning-Project-using-CNN
+
+Face Expression recognition plays a crucial role in real-world applications like video conferencing, human-machine interaction, and security systems. Deep learning-based methods, particularly Convolutional Neural Networks (CNNs), have outperformed traditional machine learning approaches in both accuracy and processing speed for image recognition tasks. This project focuses on classifying facial expressions into seven categories: Anger, Disgust, Fear, Happiness, Sadness, Surprise, and Neutrality. 
+
+A Modified CNN architecture is proposed, which includes two additional normalization operations using batch normalization in selected layers. This modification accelerates the network and enhances the recognition performance. The CNN architecture is designed to extract distinctive facial features, while a Softmax classifier is employed in the fully connected layer for classifying the emotions.
+
+In experiments conducted using the Georgia Tech Database, the proposed approach demonstrated improved performance in facial expression recognition compared to existing methods. The CNN Classifier is also applied to images captured from a laptop's webcam. In this process, the face is detected within the webcam frames using the Haar cascade classifier from OpenCV. The detected face is then cropped, normalized, and processed through the CNN Classifier for emotion classification.
